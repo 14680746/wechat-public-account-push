@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wx382c9103d9e29bce",
+  APP_ID: "",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "6aca37333c31e6195b85af851b4c28cc",
+  APP_SECRET: "",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -95,7 +95,7 @@ export const config = {
       ]
     },
     {
-      name: "小刘同学",
+      name: "00",
       id: "oQP346epYWdp2SjmxLniWLUfErcI",
       useTemplateId: "dIy0338B9Zycmrw6bHBOiw_dZeUUoU8gyduXaYPm5Bc",
       province: "河北",
@@ -103,7 +103,7 @@ export const config = {
       horoscopeDate: '02-05',
       horoscopeDateType: '今日',
       openUrl: "https://s.weibo.com",
-      festivals: [ {"type": "*生日", "name": "小刘同学", "year": "2001", "date": "01-13"}， {"type": "*生日", "name": "小刘同学", "year": "2001", "date": "02-05"}],
+      festivals: [],
       customizedDateList: [{"keyword": "love_day", date: "2022-09-08"}]
     },
     {
