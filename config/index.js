@@ -78,9 +78,9 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*阴历生日", "name": "小刘同学", "year": "2001", "date": "01-13"，isShowAge: true},
+        {"type": "*阴历生日", "name": "小刘同学", "year": "2001", "date": "01-13",isShowAge: true},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "阳历生日", "name": "小刘同学", "year": "2001", "date": "02-05"，isShowAge: true},
+        {"type": "阳历生日", "name": "小刘同学", "year": "2001", "date": "02-05",isShowAge: true},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -90,8 +90,8 @@ export const config = {
     },
     {
       name: "小刘同学",
-      id: "oQP346epYWdp2SjmxLniWLUfErcI",
-      useTemplateId: "dIy0338B9Zycmrw6bHBOiw_dZeUUoU8gyduXaYPm5Bc",
+      id: "",
+      useTemplateId: "",
       province: "河北",
       city: "石家庄",
       horoscopeDate: '02-05',
