@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx382c9103d9e29bce",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "6aca37333c31e6195b85af851b4c28cc",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -62,19 +62,19 @@ export const config = {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "	oQP346epYWdp2SjmxLniWLUfErcI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "	dIy0338B9Zycmrw6bHBOiw_dZeUUoU8gyduXaYPm5Bc",
       // 所在省份
-      province: "广东",
+      province: "河北",
       // 所在城市
-      city: "肇庆",
+      city: "石家庄",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '02-05',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://s.weibo.com",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -96,15 +96,15 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      id: "oQP346epYWdp2SjmxLniWLUfErcI",
+      useTemplateId: "dIy0338B9Zycmrw6bHBOiw_dZeUUoU8gyduXaYPm5Bc",
+      province: "河北",
+      city: "石家庄",
+      horoscopeDate: '02-05',
+      horoscopeDateType: '今日',
+      openUrl: "https://s.weibo.com",
+      festivals: [ {"type": "*生日", "name": "小刘同学", "year": "2001", "date": "01-13"}， {"type": "*生日", "name": "小刘同学", "year": "2001", "date": "02-05"}],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-08"}]
     },
     {
       name: "老婆2",
