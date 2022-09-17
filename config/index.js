@@ -28,11 +28,11 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true, 
     // 朋友圈文案
     momentCopyrighting: true,
     // 毒鸡汤
@@ -78,7 +78,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "小刘同学阴历生日", "year": "2001", "date": "01-13"},
+        {"type": "*生日", "name": "小刘同学阴历生日", "year": "2001", "date": "01-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "小刘同学阳历生日", "year": "2001", "date": "02-05"},
       ],
