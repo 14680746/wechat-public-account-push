@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "小刘同学",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oQP346SA6Ng_GDm6EzqeFS7A67bI",
+      id: "oQP346epYWdp2SjmxLniWLUfErcI",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "dIy0338B9Zycmrw6bHBOiw_dZeUUoU8gyduXaYPm5Bc",
       // 所在省份
@@ -81,6 +81,7 @@ export const config = {
         {"type": "*生日", "name": "小刘同学阴历生日", "year": "2001", "date": "01-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "小刘同学阳历生日", "year": "2001", "date": "02-05"},
+        {"type": "节日", "name": "考研", "year": "2022", "date": "12-24"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -141,7 +142,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oQP346epYWdp2SjmxLniWLUfErcI",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
