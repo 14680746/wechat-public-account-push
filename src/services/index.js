@@ -349,9 +349,9 @@ export const getBirthdayMessage = (festivals) => {
       // 节日相关
       if (item.type === '节日') {
         if (item.diffDay === 0) {
-          message = `今天是 ${ item.name } 哦，要开心！`
+          message = `今天是 ${ item.name } 哦，要加油！`
         } else {
-          message = `距离 ${ item.name } 还有${ item.diffDay }天`
+          message = `距离 ${ item.name } 还有${ item.diffDay }天，努力的同时要注意身体哦！`
         }
       }
 
