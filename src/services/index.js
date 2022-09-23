@@ -351,7 +351,7 @@ export const getBirthdayMessage = (festivals) => {
         if (item.diffDay === 0) {
           message = `今天是 ${ item.name } 哦，要加油！`
         } else {
-          message = `距离 ${ item.name } 还有${ item.diffDay }天——温柔的风一定能吹散所有的不开心。`
+          message = `距离 ${ item.name } 还有${ item.diffDay }天`
         }
       }
 
